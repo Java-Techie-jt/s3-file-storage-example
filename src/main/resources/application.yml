@@ -1,0 +1,26 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIA2A2R4SNSVXRC4HWB
+      secret-key: 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
+    region:
+      static: us-east-2
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: javatechiestorage
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 9090
+
